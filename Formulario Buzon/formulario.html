@@ -1,0 +1,108 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+    /* Estilos CSS aquí */
+    .container {
+        border: 1px solid #000;
+        padding: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .header {
+        text-align: center;
+        border: 1px solid #000;
+        padding: 10px;
+    }
+    .header img {
+        max-width: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+    .header-table {
+        width: 100%;
+    }
+    .header-table td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: center;
+    }
+    .acta {
+        margin-top: 20px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    th, td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: center;
+    }
+    </style>
+    </head>
+    <body>
+    <div class="container">
+    <div class="header">
+        <table class="header-table">
+        <tr>
+            <td rowspan="4"><img src="ruta_de_la_imagen.jpg" alt="Logo"></td>
+            <td>Texto en la primera celda</td>
+            <td>Texto en la segunda celda</td>
+            <td rowspan="2" style="width: 50%;">Texto en la tercera celda - Mitad Izquierda</td>
+            <td rowspan="2" style="width: 50%;">Texto en la tercera celda - Mitad Derecha</td>
+        </tr>
+        <tr>
+            <td>Fecha</td>
+            <td>Texto</td>
+        </tr>
+        </table>
+    </div>
+    <div class="acta">
+        <h2>Acta #</h2>
+        <input type="text" placeholder="Fecha">
+    </div>
+    <div>
+        <table>
+        <tr>
+            <td>Ubicación de buzón</td>
+            <td>Responsable SIAU</td>
+            <td></td>
+            <td></td>
+        </tr>
+        </table>
+    </div>
+    <div>
+        <p>Texto largo</p>
+        <table>
+        <tr>
+            <td colspan="3" rowspan="4">Nombre</td>
+            <td colspan="3" rowspan="4">Cédula</td>
+            <td colspan="3" rowspan="4">Representante de:</td>
+            <td colspan="3" rowspan="4">Firma</td>
+        </tr>
+        </table>
+    </div>
+    <div>
+
+        <table>
+        <tr>
+            <th colspan="6">N° de peticiones</th>
+        </tr>
+        <tr>
+            <td>N° de peticiones</td>
+            <td>N° Quejas</td>
+            <td>Reclamos</td>
+            <td>N° sugerencias</td>
+            <td>N° Felicitaciones</td>
+            <td>Total</td>
+        </tr>
+        </table>
+    </div>
+    </div>
+    </body>
+    </html>
